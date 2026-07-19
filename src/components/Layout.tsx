@@ -54,7 +54,7 @@ export default function Layout() {
       </main>
       <SectionErrorBoundary name="footer">
         <FooterSimpleCard
-      brand="VoltFamily EV Charging"
+      brand="J&E Technologies EV Charging"
       columns={[
         {
           title: "Company",
@@ -96,7 +96,7 @@ export default function Layout() {
           ],
         },
       ]}
-      copyright="© 2024 VoltFamily Charging Systems, Inc."
+      copyright="© 2026 J&E Technologies, LLC."
       links={[
         {
           label: "Twitter",
