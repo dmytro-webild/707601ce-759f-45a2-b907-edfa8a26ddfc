@@ -2,7 +2,6 @@ import FaqTabbedAccordion from '@/components/sections/faq/FaqTabbedAccordion';
 import FeaturesBentoGrid from '@/components/sections/features/FeaturesBentoGrid';
 import HeroBrand from '@/components/sections/hero/HeroBrand';
 import MetricsFeatureCards from '@/components/sections/metrics/MetricsFeatureCards';
-import TestimonialRatingCards from '@/components/sections/testimonial/TestimonialRatingCards';
 import SectionErrorBoundary from "@/components/ui/SectionErrorBoundary";
 
 export default function HomePage() {
@@ -61,53 +60,6 @@ export default function HomePage() {
     </SectionErrorBoundary>
   </div>
 
-  <div id="testimonials" data-section="testimonials">
-    <SectionErrorBoundary name="testimonials">
-          <TestimonialRatingCards
-      tag="Trusted by Drivers"
-      title="What Our Community Says"
-      description="We are proud to serve families, commuters, and businesses every day."
-      testimonials={[
-        {
-          name: "Sarah Miller",
-          role: "Tesla Model 3 Owner",
-          quote: "Reliable and convenient. Best local charging service!",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/smiley-woman-talking-phone_23-2148461401.jpg",
-        },
-        {
-          name: "James Chen",
-          role: "Rivian R1T Owner",
-          quote: "Fast, easy, and always clean stations. Truly top-tier.",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/young-family-happy-mother-father-with-son-having-fun-together-cozy-modern-living-room-looking-camera-smiling-spending-time-home-weekend_141793-131383.jpg",
-        },
-        {
-          name: "Elena Rodriguez",
-          role: "Business Owner",
-          quote: "Exceptional service and quick support when needed.",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/young-co-worker-spending-time-office_23-2149328340.jpg",
-        },
-        {
-          name: "David Kim",
-          role: "Commuter",
-          quote: "My favorite charging spot in town, hands down.",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/positive-confident-business-coach-posing-training-room_74855-3026.jpg",
-        },
-        {
-          name: "Marcus Thorne",
-          role: "EV Enthusiast",
-          quote: "Dependability you can feel. Highly recommended.",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-man-driving-car_23-2148999138.jpg",
-        },
-      ]}
-      textAnimation="fade"
-    />
-    </SectionErrorBoundary>
-  </div>
 
   <div id="faq" data-section="faq">
     <SectionErrorBoundary name="faq">
