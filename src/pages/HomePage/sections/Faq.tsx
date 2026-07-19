@@ -23,7 +23,7 @@ export default function FaqSection(): React.JSX.Element {
                 },
                 {
                   question: "How do I pay?",
-                  answer: "Use our simple app or pay via credit card at the station.",
+                  answer: "Drivers can pay directly at the charging station using a credit card at the machine.",
                 },
               ],
             },
