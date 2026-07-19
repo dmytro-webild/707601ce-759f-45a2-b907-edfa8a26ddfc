@@ -42,7 +42,7 @@ export default function Layout() {
       <SiteBackgroundSlot />
       <SectionErrorBoundary name="navbar">
         <NavbarFloating
-      logo="J&E Technologies"
+      logo="JECharging.com"
       ctaButton={{
         text: "Find a Charger",
         href: "/find",
@@ -54,7 +54,7 @@ export default function Layout() {
       </main>
       <SectionErrorBoundary name="footer">
         <FooterSimpleCard
-      brand="J&E Technologies EV Charging"
+      brand="JECharging.com"
       columns={[
         {
           title: "Company",
