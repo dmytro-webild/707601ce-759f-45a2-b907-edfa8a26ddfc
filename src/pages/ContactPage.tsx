@@ -12,11 +12,11 @@ export default function ContactPage() {
       text="Ready to learn more? Our support team is here to help you get connected."
       primaryButton={{
         text: "Email Support",
-        href: "mailto:hello@voltfamily.com",
+        href: "mailto:contact@jecharging.com",
       }}
       secondaryButton={{
         text: "Call Us",
-        href: "tel:5551234567",
+        href: "tel:8048962312",
       }}
       textAnimation="slide-up"
     />
