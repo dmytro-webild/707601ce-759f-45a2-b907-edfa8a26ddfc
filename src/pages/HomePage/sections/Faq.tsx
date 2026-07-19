@@ -19,7 +19,7 @@ export default function FaqSection(): React.JSX.Element {
               items: [
                 {
                   question: "What charger types do you support?",
-                  answer: "We support J1772, CCS, and NACS (Tesla) standards.",
+                  answer: "J&E Technologies supports Level 3 DC Fast Charging for public EV charging. Our chargers are compatible with all major electric vehicle makes and models, helping drivers quickly and conveniently recharge on the go.",
                 },
                 {
                   question: "How do I pay?",
