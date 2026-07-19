@@ -5,6 +5,7 @@ import FindPage from './pages/FindPage';
 import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
 
+import PrivacyPolicyPage from "@/pages/PrivacyPolicyPage";
 export default function App() {
   return (
     <Routes>
@@ -13,6 +14,7 @@ export default function App() {
         <Route path="/find" element={<FindPage />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/contact" element={<ContactPage />} />
+        <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
       </Route>
     </Routes>
   );

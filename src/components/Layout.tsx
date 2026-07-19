@@ -34,7 +34,9 @@ export default function Layout() {
   {
     "name": "Testimonials",
     "href": "#testimonials"
-  }
+  },
+  { name: "Privacy Policy", href: "/privacy-policy" },
+
 ];
 
   return (
