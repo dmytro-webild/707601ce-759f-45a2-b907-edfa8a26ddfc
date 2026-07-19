@@ -32,7 +32,7 @@ export default function FaqSection(): React.JSX.Element {
               items: [
                 {
                   question: "Is my energy green?",
-                  answer: "Yes, 100% of our energy is sourced from verified solar and wind farms.",
+                  answer: "EV charging is cleaner than traditional gasoline transportation and continues to become more sustainable as renewable energy expands. J&E Technologies is committed to supporting a cleaner energy future through reliable EV charging infrastructure.",
                 },
               ],
             },
