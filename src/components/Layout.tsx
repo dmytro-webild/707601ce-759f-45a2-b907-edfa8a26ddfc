@@ -42,7 +42,7 @@ export default function Layout() {
       <SiteBackgroundSlot />
       <SectionErrorBoundary name="navbar">
         <NavbarFloating
-      logo="VoltFamily"
+      logo="J&E Technologies"
       ctaButton={{
         text: "Find a Charger",
         href: "/find",
@@ -97,16 +97,7 @@ export default function Layout() {
         },
       ]}
       copyright=""
-      links={[
-        {
-          label: "Twitter",
-          href: "#",
-        },
-        {
-          label: "LinkedIn",
-          href: "#",
-        },
-      ]}
+      links={[]}
     />
       </SectionErrorBoundary>
     </StyleProvider>
