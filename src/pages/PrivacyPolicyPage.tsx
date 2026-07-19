@@ -6,7 +6,7 @@ export default function PrivacyPolicyPage() {
       <div data-webild-section="PolicyContent"><PolicyContent
         title="Privacy Policy"
         subtitle="J&E Technologies"
-        sections={[{"heading":"Policy Details","content":[{"type":"paragraph","text":"[Enter your Privacy Policy text here. This text box is reserved for your official data collection, usage, and protection guidelines.]"}]}]}
+        sections={[{"heading":"Policy Details","content":[{"type":"paragraph","text":"J&E Technologies respects your privacy and is committed to protecting your personal information."}]}]}
       /></div>
     </>
   );
