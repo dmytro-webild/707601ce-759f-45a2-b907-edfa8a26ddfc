@@ -23,18 +23,6 @@ export default function Layout() {
     "name": "Contact",
     "href": "/contact"
   },
-  {
-    "name": "Hero",
-    "href": "#hero"
-  },
-  {
-    "name": "Features Grid",
-    "href": "#features-grid"
-  },
-  {
-    "name": "Testimonials",
-    "href": "#testimonials"
-  },
   { name: "Privacy Policy", href: "/privacy-policy" },
   { name: "Terms Of Service", href: "/terms-of-service" },
 
