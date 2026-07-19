@@ -11,7 +11,7 @@ export default function HomePage() {
   <div id="hero" data-section="hero">
     <SectionErrorBoundary name="hero">
           <HeroBrand
-      brand="Powering the Future, One Charge at a Time"
+      brand="Powering the Future of Electric Mobility"
       description="Your trusted family-owned partner for reliable, sustainable, and innovative EV charging solutions across the community."
       primaryButton={{
         text: "Find a Charger",
@@ -30,9 +30,10 @@ export default function HomePage() {
   <div id="features-grid" data-section="features-grid">
     <SectionErrorBoundary name="features-grid">
           <FeaturesBentoGrid
-      tag="Why Choose VoltFamily"
+      tag="Why Choose J&E Technologies?
+"
       title="Unmatched Reliability and Service"
-      description="Built on decades of family values and a vision for a cleaner, sustainable tomorrow."
+      description="Built on family values and a vision for a cleaner, sustainable tomorrow."
       features={[
         {
           title: "Lightning Speed",
@@ -51,7 +52,7 @@ export default function HomePage() {
         },
         {
           title: "Smart Connectivity",
-          description: "Real-time status updates and simple app-based control.",
+          description: "Real-time status updates and simple charging control.",
           imageSrc: "http://img.b2bpic.net/free-photo/full-shot-woman-charging-electric-car_23-2149530093.jpg",
         },
       ]}
