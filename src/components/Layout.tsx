@@ -91,11 +91,11 @@ export default function Layout() {
           items: [
             {
               label: "Privacy Policy",
-              href: "/policy",
+              href: "/privacy-policy",
             },
             {
               label: "Terms of Service",
-              href: "/policy",
+              href: "/terms-of-service",
             },
           ],
         },
