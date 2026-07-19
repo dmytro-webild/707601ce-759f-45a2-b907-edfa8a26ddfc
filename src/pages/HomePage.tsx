@@ -6,15 +6,12 @@
 
 import React from 'react';
 import HeroSection from './HomePage/sections/Hero';
-import FeaturesGridSection from './HomePage/sections/FeaturesGrid';
 import FaqSection from './HomePage/sections/Faq';
 
 export default function HomePage(): React.JSX.Element {
   return (
 <>
   <HeroSection />
-
-  <FeaturesGridSection />
 
 
   <FaqSection />
