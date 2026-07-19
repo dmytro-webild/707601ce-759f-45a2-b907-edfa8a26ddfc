@@ -36,7 +36,7 @@ export default function ContactPage() {
         },
         {
           question: "Response time?",
-          answer: "Usually within 2 business hours.",
+          answer: "We are committed to responding to customer inquiries within 24–48 hours. We work to resolve charging issues as quickly as possible and ensure a reliable experience for all EV drivers.",
         },
       ]}
       textAnimation="fade"
