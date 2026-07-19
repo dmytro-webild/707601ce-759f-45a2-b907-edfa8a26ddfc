@@ -32,7 +32,7 @@ export default function ContactPage() {
       items={[
         {
           question: "How to report an issue?",
-          answer: "Use our support portal or call the number below.",
+          answer: "If you experience an issue while using a J&E Technologies charging station, please contact our support team by phone or email. Please include the charging station location, a description of the issue, and any relevant details so we can assist you quickly.",
         },
         {
           question: "Response time?",
