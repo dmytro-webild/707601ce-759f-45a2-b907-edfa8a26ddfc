@@ -12,9 +12,9 @@ export default function AboutInfoSection(): React.JSX.Element {
               <AboutTextSplit
           title="Our Family Mission"
           descriptions={[
-            "VoltFamily was born from a simple belief: transportation should be clean, fast, and accessible for everyone.",
-            "Starting as a small family-owned electrical shop, we transformed our passion for innovation into a network of reliable charging stations.",
-            "Today, we are committed to building the infrastructure of the future, supporting our local community, and making the switch to electric simple and worry-free.",
+            "J&E Technologies is committed to accelerating the future of electric mobility by providing reliable and innovative EV charging solutions.",
+            "As a family-owned company, we strive to make sustainable transportation easier for drivers, businesses, and communities through dependable technology and convenient service.",
+            "Together, we are building the infrastructure for a cleaner, more connected future.",
           ]}
           textAnimation="fade"
         />
