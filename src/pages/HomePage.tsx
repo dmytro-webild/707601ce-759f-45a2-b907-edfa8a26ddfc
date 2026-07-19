@@ -1,7 +1,6 @@
 import FaqTabbedAccordion from '@/components/sections/faq/FaqTabbedAccordion';
 import FeaturesBentoGrid from '@/components/sections/features/FeaturesBentoGrid';
 import HeroBrand from '@/components/sections/hero/HeroBrand';
-import MetricsFeatureCards from '@/components/sections/metrics/MetricsFeatureCards';
 import SectionErrorBoundary from "@/components/ui/SectionErrorBoundary";
 
 export default function HomePage() {
@@ -96,42 +95,6 @@ export default function HomePage() {
     </SectionErrorBoundary>
   </div>
 
-  <div id="metrics" data-section="metrics">
-    <SectionErrorBoundary name="metrics">
-          <MetricsFeatureCards
-      tag="Impact Driven"
-      title="Charging Metrics"
-      description="Quantifiable data behind our commitment to excellence."
-      metrics={[
-        {
-          value: "500+",
-          title: "Active Chargers",
-          features: [
-            "High Speed",
-            "Reliable Uptime",
-          ],
-        },
-        {
-          value: "100%",
-          title: "Renewable Energy",
-          features: [
-            "Solar Sourced",
-            "Wind Powered",
-          ],
-        },
-        {
-          value: "24/7",
-          title: "Community Support",
-          features: [
-            "Local Experts",
-            "Real-time Help",
-          ],
-        },
-      ]}
-      textAnimation="slide-up"
-    />
-    </SectionErrorBoundary>
-  </div>
     </>
   );
 }
