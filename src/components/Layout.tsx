@@ -96,7 +96,7 @@ export default function Layout() {
           ],
         },
       ]}
-      copyright="© 2026 J&E Technologies, LLC."
+      copyright=""
       links={[
         {
           label: "Twitter",
