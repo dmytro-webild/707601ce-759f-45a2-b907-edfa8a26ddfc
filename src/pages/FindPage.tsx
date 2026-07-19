@@ -1,93 +1,52 @@
-import FeaturesRevealCardsBento from '@/components/sections/features/FeaturesRevealCardsBento';
-import MetricsFeatureCards from '@/components/sections/metrics/MetricsFeatureCards';
 import SectionErrorBoundary from "@/components/ui/SectionErrorBoundary";
+import TextAnimation from "@/components/ui/TextAnimation";
+import ScrollReveal from "@/components/ui/ScrollReveal";
 
 export default function FindPage() {
   return (
     <>
-  <div id="find-charger-map" data-section="find-charger-map">
-    <SectionErrorBoundary name="find-charger-map">
-          <FeaturesRevealCardsBento
-      tag="Interactive Map"
-      title="Locate Your Station"
-      description="Explore our interactive map to find the nearest charger to you."
-      items={[
-        {
-          title: "Downtown Hub",
-          description: "High-speed charging, open 24/7.",
-          href: "#",
-          imageSrc: "http://img.b2bpic.net/free-photo/3d-render-battery-charge-level-diminishing-icons_107791-17178.jpg",
-        },
-        {
-          title: "Westside Station",
-          description: "Level 2 chargers near local retail.",
-          href: "#",
-          imageSrc: "http://img.b2bpic.net/free-photo/3d-environment-project-scene_23-2148896033.jpg",
-        },
-        {
-          title: "Airport Terminal",
-          description: "Reliable fast chargers for long travel.",
-          href: "#",
-          imageSrc: "http://img.b2bpic.net/free-photo/side-view-man-choosing-charging-options_23-2149530106.jpg",
-        },
-        {
-          title: "Community Park",
-          description: "Ideal for quick afternoon top-offs.",
-          href: "#",
-          imageSrc: "http://img.b2bpic.net/free-photo/close-up-electric-car-france_23-2149169764.jpg",
-        },
-        {
-          title: "Tech Center",
-          description: "High-speed charging for business needs.",
-          href: "#",
-          imageSrc: "http://img.b2bpic.net/free-vector/electric-car-infographics_23-2148003576.jpg",
-        },
-        {
-          title: "Shopping Mall",
-          description: "Multi-connector stations for convenience.",
-          href: "#",
-          imageSrc: "http://img.b2bpic.net/free-vector/renewable-energy-logo-design_23-2150011443.jpg",
-        },
-        {
-          title: "Interstate Rest",
-          description: "Ultrafast chargers for road travelers.",
-          href: "#",
-          imageSrc: "http://img.b2bpic.net/free-photo/cybersecurity-concept-illustration_23-2151883575.jpg",
-        },
-      ]}
-      textAnimation="fade-blur"
-    />
-    </SectionErrorBoundary>
-  </div>
-
-  <div id="metrics" data-section="metrics">
-    <SectionErrorBoundary name="metrics">
-          <MetricsFeatureCards
-      tag="Scale"
-      title="Growing Daily"
-      description="We are expanding our network every week."
-      metrics={[
-        {
-          value: "12",
-          title: "New Locations",
-          features: [
-            "Upcoming",
-            "Fast Charge",
-          ],
-        },
-        {
-          value: "50k",
-          title: "Total Charges",
-          features: [
-            "Verified",
-            "Trusted",
-          ],
-        },
-      ]}
-      textAnimation="fade"
-    />
-    </SectionErrorBoundary>
-  </div>
+      <div id="find-charger-map" data-section="find-charger-map">
+        <SectionErrorBoundary name="find-charger-map">
+          <section aria-label="Locate Your Station section" className="">
+            <div className="flex flex-col gap-8">
+              <div className="flex flex-col items-center gap-2 w-content-width mx-auto">
+                <div className="px-3 py-1 mb-1 text-sm card rounded w-fit">
+                  <p>Interactive Map</p>
+                </div>
+                <TextAnimation
+                  text="Locate Your Station"
+                  variant="fade-blur"
+                  gradientText={true}
+                  tag="h2"
+                  className="md:max-w-8/10 text-6xl 2xl:text-7xl leading-[1.15] font-semibold text-center text-balance"
+                />
+                <TextAnimation
+                  text="Explore our interactive map to find the nearest charger to you."
+                  variant="fade-blur"
+                  gradientText={false}
+                  tag="p"
+                  className="md:max-w-7/10 text-lg md:text-xl leading-snug text-center text-balance"
+                />
+              </div>
+              <ScrollReveal variant="fade-blur">
+                <div className="w-content-width mx-auto card rounded p-2 md:p-4 h-[60vh] min-h-[400px] flex items-center justify-center overflow-hidden">
+                  {/* HTML/Embed Code Block */}
+                  <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.019284200355!2d-122.41941548468205!3d37.7749295153232!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085809c6c8f4459%3A0xb10ed6d9b5050f14!2sSan%20Francisco%2C%20CA!5e0!3m2!1sen!2sus!4v1625680000000!5m2!1sen!2sus" 
+                    width="100%" 
+                    height="100%" 
+                    style={{ border: 0, borderRadius: 'calc(var(--radius) - 4px)' }} 
+                    allowFullScreen={true} 
+                    loading="lazy" 
+                    referrerPolicy="no-referrer-when-downgrade"
+                    title="Interactive Map"
+                  ></iframe>
+                </div>
+              </ScrollReveal>
+            </div>
+          </section>
+        </SectionErrorBoundary>
+      </div>
     </>
   );
 }
